@@ -7,9 +7,9 @@ from Homework_1.shop import Shop
 class TestShop(unittest.TestCase):
     def setUp(self) -> None:
         self.a = Product('apple', 5)
-        self.b = Product('strawberry', 15)
+        self.b = Product('lemon', 15)
         self.c = Product('banana', 10)
-        self.d = Product('watermelon', 8)
+        self.d = Product('strawberry', 8)
         self.e = Product('pear', 6)
         self.product_list = [self.a, self.b, self.c, self.d, self.e]
         self.shop = Shop(self.product_list)
